@@ -9,16 +9,16 @@ async function muatKeahlian() {
     try {
         const response = await fetch("data/keahlian.json");
         if (!response.ok) {
-            throw new Error(Status ${response.status});
+            throw new Error('Status ${response.status}');
         }
         const skills = await response.json();
 
         skills.forEach((skill) => {
             const item = document.createElement("li");
-            item.textContent = ${skill.nama} (${skill.level});
+            item.textContent = '${skill.nama} (${skill.level})';
             daftarSkill.appendChild(item);
         });
-        jumlahSkill.textContent = Ada ${skills.length} keahlian yang sedang saya kembangkan.;
+        jumlahSkill.textContent = 'Ada ${skills.length} keahlian yang sedang saya kembangkan.';
     } catch (error) {
         jumlahSkill.textContent = "Daftar keahlian gagal dimuat.";
         console.error(error);
