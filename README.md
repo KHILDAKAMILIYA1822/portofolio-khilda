@@ -1,20 +1,43 @@
-# Portofolio Khilda Kamiliya R. S.
+# Portofolio Andi Pratama
+
 Website portofolio pribadi yang saya buat di Kelas Industri UBIG
-(Paket 1, Minggu 01 sampai 05).
-Website ini tampil rapi di ponsel, tablet, dan laptop.
+(Paket 1, Minggu 01 sampai 09).
+Versi ini adalah Portofolio v2: tampil rapi di ponsel, tablet,
+dan laptop, serta interaktif dengan JavaScript.
+
 ## Tampilan
-![Tampilan beranda portofolio](tampilan-portofolio.png)
+
+![Tampilan beranda Portofolio v2](img/tampilan-portofolio.png)
+
 ## Fitur
-- Halaman **Beranda** berisi profil, hobi, cita-cita, keahlian, dan
-jadwal belajar
-- Halaman **Proyek** berisi daftar proyek dalam bentuk kartu
-- Halaman **Kontak** berisi form untuk menghubungi saya
+
+- Halaman Beranda berisi profil, hobi, cita-cita, jadwal
+  belajar, dan daftar keahlian dari data/keahlian.json yang bisa
+  ditambah
+- Halaman Proyek berisi enam kartu proyek dari
+  data/proyek.json dengan filter kategori, serta repositori GitHub
+  terbaru dari GitHub API
+- Halaman Kontak berisi form dengan penghitung karakter pesan
+- Mode gelap di semua halaman
 - Tampilan responsif dengan Flexbox dan *media query*
+
 ## Teknologi
-- HTML5
-- CSS3 (Flexbox dan media query)
-- Git dan GitHub
-- VS Code dan Live Server
+
+- HTML5 dan CSS3 (Flexbox, *media query*, dan variabel CSS)
+- JavaScript (DOM, *event*, fetch, dan async/await)
+- JSON dan GitHub REST API
+- Git, GitHub, dan Vercel
+
+## Skor Lighthouse (mobile)
+
+- Beranda: Performance 96, Accessibility 100, Best Practices 100,
+  SEO 100
+- Proyek: Performance 95, Accessibility 100, Best Practices 100, SEO
+  100
+- Kontak: Performance 99, Accessibility 100, Best Practices 100, SEO
+  100
+
 ## Tautan
-- Website: menyusul
-- Dibuat oleh: Khilda Kamiliya, SMKN 1 Pasuruan
+
+- Website: https://portofolio-khilda-qfbjh4pro-khildakamiliya1822.vercel.app/
+- Dibuat oleh: Khilda kamiliya, SMKN 1 Pasuruan
